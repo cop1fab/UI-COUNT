@@ -1,33 +1,262 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/index-design.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <title>CBS|HOME</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Designer </title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+    crossorigin="anonymous">
 </head>
 <body>
-   <div id="main-1" class = "main"> 
-        <img src="img/slide.jpg" alt="Home Image" class="main-image">
-        <div class= "menu">
-                <ul>
-                    <img src="img/CBSlogo.png" alt="logo" align="middle">
-                    <li>Who we are</li>
-                    <li>What we do</li>
-                    <li>Our impact</li>
-                    <li>News publication</li>
-                    <li>Support us</li>
-                </ul>
+    <header>
+        <div class="logo">
+         <img src="./img/CBSlogo.png" alt="">
         </div>
-        <div class="share-icons">
+       <nav class="navigation">
+           <ul>
+                <li>
+                        <a href="#">Who we are</a>
+                    </li>
+                    <li>
+                        <a href="#">What we do</a>
+                    </li>
+                    <li>
+                        <a href="#">Our impact</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                News publication
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                Support us
+                        </a>
+                    </li>
+           </ul>
+       </nav>
+        <!-- <div class="share-icons">
             Find us:  <i class="fa fa-facebook">  </i> <i class="fa fa-twitter"></i>
+        </div>  -->
+    </header>
+    <section id="main-1" class = "main"> 
+        <div class="main-image">
+        <img src="img/slide.jpg" alt="Home Image">
+        <div class="overlay"></div>
         </div>
-
-        <div class="mission-statement">
-            <p class="statement"> "Community Based Sociotherapy Rwanda aims to contribute to national process of transitional justice in Rwanda" </p>
+            <div class="mission-statement">
+                <p class="statement"> 
+                    Community Based Sociotherapy Rwanda aims to contribute to national 
+                    process of transitional justice in Rwanda</p>
+            </div>
+        </section>
+  <section class="showcase">
+    <div class="container">
+        <div class="container-box">
+            <div class="box">
+                <div class="title"><h3>Who We are</h3></div>
+                <div class="desc">
+                    <p>
+                        An NGO initiated to consolidate and sustain 
+                        the successes of the previous Program and continuing to implement 
+                        socialtherapy in areas where socialtherapy has already taken root, while
+                        extending its implementation to other areas in Rwanda and the region.
+                    </p>
+                  <a href="#" class="link">Read more</a>
+                </div>
+            </div>
+            <div class="box">
+             <div class="title"><h3>What We do</h3></div>
+             <div class="desc">
+                <p>
+                    Community Based Socialtherapy  promotes psychosocial wellbeing in 
+                    Rwanda through interventions focusing on healing, reconciliation and 
+                    social cohesion.
+                </p>
+                <a href="#" class="link">Read more</a>
+            </div>
+         </div>
+         <div class="box">
+             <div class="title"><h3>Our Communities</h3></div>
+             <div class="desc">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum dicta et aut quam assumenda? 
+                    Repudiandae assumenda nemo exercitationem itaque obcaecati eum?
+                     Non rem natus eos totam velit nesciunt quam cum.</p>
+                <a href="#" class="link">Interactive Map</a>
+            </div>
+         </div>
         </div>
+     </div>
+  </section>
+  <!--2section !-->
+  <section class="showcase intervention">
+   <h3 class="intervention-title">Our Areas of intervention</h3>
+   <div class="container">
+       <div class="grid-system">
+            <div class="b-box">
+              <img src="./images/icon/connection.svg" alt="">
+             <div class="desc-box">
+                <h3>Trauma-informed Peace Building</h3>
+             </div>
+            </div>
+            <div class="b-box">
+                <img src="./images/icon/connection.svg" alt="">
+                <div class="desc-box">
+                    <h3>Grassroots advocacy & Civic engagement</h3>
+                 </div>
+              </div>
+              <div class="b-box">
+                <img src="./images/icon/connection.svg" alt="">
+                <div class="desc-box">
+                    <h3>Addressing intergenerational trauma & violence</h3>
+                 </div>
+              </div>
+              <div class="b-box">
+                <img src="./images/icon/connection.svg" alt="">
+                <div class="desc-box">
+                    <h3>Gender & Child protection</h3>
+                 </div>
+              </div>
+              <div class="b-box">
+                <img src="./images/icon/connection.svg" alt="">
+                <div class="desc-box">
+                    <h3>Sustainable development</h3>
+                 </div>
+              </div>
+              <div class="b-box">
+                <img src="./images/icon/connection.svg" alt="">
+                <div class="desc-box">
+                    <h3>Participatory action Research</h3>
+                 </div>
+              </div>
+       </div>
    </div>
-   
- 
-    
+  </section>
+  <!---->
+  <section class="showcase">
+     <div class="container articles">
+            <div class="show-news-story">
+                    <div class="new">
+                        <div class="title new-title"><h3>News</h3></div>
+                        <div class="blog">
+                            <div class="blogs-article">
+                                <div class="blog-image">
+                                    <img src="./images/NGO/nEpFoW2Q.jpeg" alt="">
+                                </div>
+                                <div class="read">
+                                   <p>Community Based Socialtherapy  promotes psychosocial wellbeing in 
+                                        Rwanda through interventions focusing on healing, reconciliation and 
+                                        social cohesion.</p>
+                                </div>
+                                <a href="#"><button class="sb">Read more</button></a>
+                              
+                            </div>
+                            <div class="blogs-article">
+                                    <div class="blog-image">
+                                        <img src="./images/NGO/cY1FcPeQ.jpeg" alt="">
+                                    </div>
+                                    <div class="read">
+                                            <p>
+                                                Community Based Socialtherapy  promotes psychosocial wellbeing in 
+                                                        Rwanda through interventions focusing on healing, reconciliation and 
+                                                        social cohesion.
+                                            </p>
+                                         </div>
+                                         <a href="#"><button class="sb">Read more</button></a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="new">
+                        <div class="title new-title"><h3>Change Stories</h3></div>
+                        <div class="blog">
+                            <div class="blogs-article">
+                                <div class="blog-image">
+                                    <img src="./images/NGO/1-souadw.jpeg" alt="">
+                                </div>
+                                <div class="read">
+                                   <p>Community Based Socialtherapy  promotes psychosocial wellbeing in 
+                                        Rwanda through interventions focusing on healing, reconciliation and 
+                                        social cohesion.</p>
+                                </div>
+                                <a href="#"><button class="sb">Read more</button></a>
+                            </div>
+                            <div class="blogs-article">
+                                    <div class="blog-image">
+                                        <img src="./images/NGO/DyR-nwdw.jpeg" alt="">
+                                    </div>
+                                    <div class="read">
+                                            <p>
+                                                Community Based Socialtherapy  promotes psychosocial wellbeing in 
+                                                        Rwanda through interventions focusing on healing, reconciliation and 
+                                                        social cohesion.
+                                            </p>
+                                         </div>
+                                         <a href="#"><button class="sb">Read more</button></a>
+                                </div>
+                        </div>
+                    </div>
+             </div>
+     </div>
+  </section>
+  <footer>
+      <div class="combiner">
+          <div class="footer-grid">
+             <div class="donate">
+              <h2>Please donate Now</h2>
+              <div class="donate-desc">
+                  <h5>Please donate to support Sociotherapy efforts in Rwanda</h5>
+                  <a href="#">
+                      <button class="donateBtn">Donate Now</button>
+                  </a>
+              </div>
+             </div>
+             <div>
+            <div class="donate">
+            <h2>Contact us</h2>
+            <div class="donate-desc dn">
+              <h5>Community based socialtherapy based in Rwanda, KN Road</h5>
+              <h5>UMOJA House 1st floor, Kiyovu</h5>
+              <h5>info@socialtherapy.org</h5>
+              <h5>www.socialtherapy.org</h5>
+              <h5>Phone: (+250) 0789410921</h5>
+              <h5>+250788416724</h5>
+            </div>
+                </div>
+             </div>
+             <div class="footer-menu">
+                 <div class="footer-image">
+                    <img src="./img/CBSlogo.png" alt="" class="f-logo">
+                 </div>     
+                 <nav>
+                     <ul>
+                         <li>
+                              <a href="#">
+                                    <div class="icon">
+                                            <img src="./images/icon/facebook-letter-logo.svg" alt="">
+                                          </div>
+                              </a>
+                            </li>
+                         <li>
+                             <a href="#">
+                                    <div class="icon">
+                                            <img src="./images/icon/twitter.svg" alt="">
+                                          </div>
+                             </a>
+                         </li>
+                         <li>
+                              <a href="#">
+                                    <div class="icon">
+                                            <img src="./images/icon/linked-in-logo-of-two-letters.svg" alt="">
+                                          </div>
+                              </a>
+                            </li>
+                     </ul>
+                 </nav>
+             </div>
+          </div>
+      </div>
+  </footer>
 </body>
 </html>
