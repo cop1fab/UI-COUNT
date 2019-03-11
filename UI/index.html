@@ -8,39 +8,43 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
     crossorigin="anonymous">
+    <link rel="shortcut icon" href="./img/CBSlogo.png">
 </head>
 <body>
     <header>
-        <div class="logo">
-         <img src="./img/CBSlogo.png" alt="">
-        </div>
-       <nav class="navigation">
-           <ul>
-                <li>
-                        <a href="#">Who we are</a>
-                    </li>
+            <div class="logo">
+                <a href="./index.html">
+                <img src="./img/CBSlogo.png" alt="">
+            </a>
+            </div>
+            <div class="menuIcon">
+             <img src="./images/icon/menu.svg" alt="">
+            </div>
+            <nav class="navigation">
+                <div class="menuIcon close">X</div>
+                <ul>
                     <li>
-                        <a href="#">What we do</a>
-                    </li>
-                    <li>
-                        <a href="#">Our impact</a>
-                    </li>
-                    <li>
-                        <a href="#">
-                                News publication
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                                Support us
-                        </a>
-                    </li>
-           </ul>
-       </nav>
-        <!-- <div class="share-icons">
-            Find us:  <i class="fa fa-facebook">  </i> <i class="fa fa-twitter"></i>
-        </div>  -->
-    </header>
+                            <a href="#">Who we are</a>
+                        </li>
+                        <li>
+                            <a href="./what.html">What we do</a>
+                        </li>
+                        <li>
+                            <a href="./impact.html">Our impact</a>
+                        </li>
+                        <li>
+                            <a href="./resources.html">
+                                    Resources
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                    Support us
+                            </a>
+                        </li>
+                </ul>
+            </nav>
+        </header>
     <section id="main-1" class = "main"> 
         <div class="main-image">
         <img src="img/slide-image.jpg" alt="Home Image">
@@ -75,7 +79,7 @@
                     Rwanda through interventions focusing on healing, reconciliation and 
                     social cohesion.
                 </p>
-                <a href="#" class="link">Read more</a>
+                <a href="./what.html" class="link">Read more</a>
             </div>
          </div>
          <div class="box">
@@ -258,5 +262,7 @@
           </div>
       </div>
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./js/menu.js"></script>
 </body>
 </html>
