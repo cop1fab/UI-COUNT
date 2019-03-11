@@ -1,0 +1,114 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.pic img{ 
+ width:100%;
+ height:40%;
+ position: relative;
+}
+.whoWeAre{
+    position:absolute;
+    width:94.5%;
+    height: 7%;
+    padding:20px 40px;
+    background-color:darkgoldenrod;
+    color:white;
+    font-style: bold;
+    font-size:30px;
+}
+.rem{
+ min-height: auto;
+ padding-bottom: 20px;
+}
+
+.boxes{
+    position: relative;
+
+}
+
+.link1{
+    color: white;
+    padding: 20px;
+    border-radius: 3px;
+    border:1px solid green;
+    background: green;
+    font-size: 13px;
+    
+}
+
+.link2{
+    position:relative;
+    left: 46%;
+    color: white;
+    padding: 20px;
+    border-radius: 3px;
+    border:1px solid green;
+    background: green;
+    font-size: 13px;
+}
+
+.read-1{
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+
+}
+
+.read-2{
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+
+}
+.blog-1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.new-title1{
+    color: black;
+}
+
+.new1{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.blog-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.blog-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.statements{
+    font-size: 40px;
+    font-style: bold;
+    margin: 20px 20px;
+    color:#fff;
+   
+}
+
+
+.mission{ 
+    width: 49%;
+    background-color: aquamarine;
+    text-align: center;
+    float: left;
+    margin: 5px;
+}
+
